@@ -1,0 +1,29 @@
+#section12{
+    
+    padding: 60px 4%;
+    border-bottom:0.1px solid rgb(232, 232, 232);
+}
+
+#section12 .section12Content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap:30px;
+    justify-content:center;
+    grid-auto-rows: 1fr;
+    margin-top:40px;
+}
+#section12 .section12Content .section12Card{
+    border-radius:4px;
+}
+#section12 .section12Content .section12Card h3,
+#section12 .section12Content .section12Card p{
+    padding:0 15px;
+}
+#section12 .section12Content img{
+    width:100%;
+    height:auto;
+    margin-bottom:20px;
+    border-radius:4px 4px 0 0;
+}
+
+

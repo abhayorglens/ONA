@@ -1,0 +1,29 @@
+#section11{
+    
+    padding: 60px 4%;
+    border-bottom:0.1px solid rgb(232, 232, 232);
+}
+
+#section11 .section11Content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap:30px;
+    justify-content:center;
+    grid-auto-rows: 1fr;
+    margin-top:40px;
+}
+#section11 .section11Content .section11Card{
+    border-radius:4px;
+}
+#section11 .section11Content .section11Card h3,
+#section11 .section11Content .section11Card p{
+    padding:0 15px;
+}
+#section11 .section11Content img{
+    width:100%;
+    height:auto;
+    margin-bottom:20px;
+    border-radius:4px 4px 0 0;
+}
+
+

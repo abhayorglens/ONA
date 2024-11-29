@@ -1,0 +1,19 @@
+#section10{
+    
+    padding: 0 0 0 4%;
+    border-bottom:0.1px solid rgb(232, 232, 232);
+}
+#section10 .section10Content{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    gap:60px;
+    align-items:center;
+}
+#section10 .section10Content .rightImage{
+   
+    
+    height:480px;
+    background-image:url('../onaResources/9.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}

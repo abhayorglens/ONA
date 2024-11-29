@@ -1,0 +1,48 @@
+#section9{
+    
+    padding: 60px 4%;
+    border-bottom:0.1px solid rgb(232, 232, 232);
+}
+#section9 .section9Card{
+    display:flex;
+    gap:25px;
+    height:auto;
+    margin-top:30px;
+    
+
+}
+
+#section9 .section9Card .section9Card1,
+#section9 .section9Card .section9Card2,
+#section9 .section9Card .section9Card3,
+#section9 .section9Card .section9Card4{
+    display: flex;
+    align-items: center;
+    background:rgb(241, 241, 241);
+}
+
+#section9 .section9Card .section9Card1{
+    padding:0 10% 0 15px;
+}
+#section9 .section9Card .section9Card2{
+    padding:0 20% 0 15px;
+}
+#section9 .section9Card .section9Card3{
+    padding:0 30% 0 15px;
+}
+#section9 .section9Card .section9Card4{
+    padding:0 40% 0 15px;
+}
+
+@media only screen and (max-width:700px) {
+    #section9 .section9Card{
+        flex-direction: column;
+    }
+   
+    #section9 .section9Card .section9Card1,
+    #section9 .section9Card .section9Card2, 
+    #section9 .section9Card .section9Card3,
+    #section9 .section9Card .section9Card4{
+        padding:20px 0 20px 15px;
+    }
+}

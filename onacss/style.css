@@ -1,0 +1,99 @@
+*,
+::after,
+::before{
+padding:0;
+margin:0;
+box-sizing: border-box;
+transition:0.3s;
+}
+
+body{position:relative;}
+
+html{
+  scroll-behavior:smooth;
+  font-size:16px;
+}
+
+
+.sectionHeading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(1.25rem, 1.107rem + 0.714vw, 1.75rem);
+    font-weight: 600;
+    line-height: 1.75em;
+   
+    color:rgba(43, 43, 43, 1);; 
+}
+
+h3{
+  
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(0.75rem, 0.679rem + 0.357vw, 1rem);
+    font-weight: 600;
+    line-height: 1.7em;
+    letter-spacing: 0.04em;
+    
+    color:rgba(43, 43, 43, 1);
+    
+   
+}
+.sectionParagraph{
+font-family: 'Inter', sans-serif;
+font-size: clamp(0.75rem, 0.679rem + 0.357vw, 1rem);
+font-weight: 400;
+line-height: 1.7em;
+letter-spacing: 0.04em;
+text-align: left;
+color:rgba(43, 43, 43, 1);
+
+}
+.sectionParagraph span{
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(0.75rem, 0.679rem + 0.357vw, 1rem);
+  font-weight: 500;
+  line-height: 1.7em;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color:rgba(43, 43, 43, 1);
+  
+  }
+
+.stop-body-scrolling {
+    overflow: hidden;
+  }
+
+
+
+
+  #onaCourceContainer{
+    max-width:1440px;
+    margin:0 auto;
+    min-height:100vh;
+    overflow:hidden;
+    position:relative;
+    /* background:green; */
+    
+    
+}
+section{
+  width:100%;
+}
+.section{
+    width:100%;
+    opacity: 0;
+
+    /* each section will from 60px to at original position in 0.7seconds*/
+    transform: translateY(100px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.section.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+section.sectionBackground{
+    background-image:url('../onaResources/backgroundTexture.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+  }

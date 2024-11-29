@@ -1,0 +1,25 @@
+#section6{
+    padding: 60px 4%;
+    border-bottom:0.1px solid rgb(232, 232, 232);
+}
+
+#section6 .section6Content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap:40px;
+    justify-content:center;
+    grid-auto-rows: 1fr;
+    margin-top:45px;
+}
+
+#section6 .section6Content .stage{
+    padding:15px 0;
+    text-align:center;
+    background:rgb(241, 241, 241) !important;
+    margin-bottom:30px;
+    font-size: clamp(1.25rem, 1.107rem + 0.714vw, 1.45rem);
+}
+
+#section6 .section6Content h3, #section6 .section6Content p{
+    padding:0 20px;
+}

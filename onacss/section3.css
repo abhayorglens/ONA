@@ -1,0 +1,31 @@
+#section3{
+    padding: 60px 4%;
+    border-bottom:0.1px solid rgb(232, 232, 232);
+}
+
+#section3 .section3Content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap:45px;
+    justify-content:center;
+    grid-auto-rows: 1fr;
+    margin-top:55px;
+    
+}
+
+#section3 .section3Content .section3Card img{
+    width:50%;
+    height:auto;
+    margin-bottom:30px;
+    border-radius:4px;
+}
+
+@media only screen and (max-width:446px) {
+
+    #section3 .section3Content{
+       gap:10px;
+}
+    #section3 .section3Content .section3Card img{
+      width:100%;   
+    }
+}
